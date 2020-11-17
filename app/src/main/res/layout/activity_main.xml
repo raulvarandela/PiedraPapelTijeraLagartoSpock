@@ -13,39 +13,39 @@
         android:layout_weight=".25">
 
         <ImageButton
+            android:id="@+id/piedra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".20"
-            android:src="@drawable/ic_pierdra"
-            android:id="@+id/piedra"/>
+            android:src="@drawable/ic_pierdra" />
 
         <ImageButton
+            android:id="@+id/papel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".2"
-            android:src="@drawable/ic_papel"
-            android:id="@+id/papel"/>
+            android:src="@drawable/ic_papel" />
 
         <ImageButton
+            android:id="@+id/tijeras"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".2"
-            android:src="@drawable/ic_tijeras"
-            android:id="@+id/tijeras"/>
+            android:src="@drawable/ic_tijeras" />
 
         <ImageButton
+            android:id="@+id/spock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".2"
-            android:src="@drawable/ic_spock"
-            android:id="@+id/spock"/>
+            android:src="@drawable/ic_spock" />
 
         <ImageButton
+            android:id="@+id/lagarto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".2"
-            android:src="@drawable/ic_lagarto"
-            android:id="@+id/lagarto"/>
+            android:src="@drawable/ic_lagarto" />
 
     </LinearLayout>
 
@@ -56,18 +56,20 @@
         android:layout_weight=".25">
 
         <TextView
-            android:layout_marginLeft="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
             android:layout_weight=".5"
-            android:text="Su elección:"/>
+            android:text="Su elección:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/usuario"
-            android:layout_marginLeft="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight=".5"/>
+            android:layout_marginLeft="12dp"
+            android:layout_weight=".5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     </LinearLayout>
 
@@ -79,18 +81,20 @@
         android:layout_weight=".25">
 
         <TextView
-            android:layout_marginLeft="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
             android:layout_weight=".5"
-            android:text="Maquina:"/>
+            android:text="Maquina:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/robot"
-            android:layout_marginLeft="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight=".5"/>
+            android:layout_marginLeft="12dp"
+            android:layout_weight=".5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
     </LinearLayout>
@@ -104,32 +108,36 @@
 
         <TextView
             android:id="@+id/resultado_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".25"/>
+            android:layout_weight=".25"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".25"
-            android:text="Usuario"/>
+            android:gravity="center"
+            android:text="Usuario"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".25"
-            android:text="Robot"/>
+            android:gravity="center"
+            android:text="Robot"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
         <TextView
             android:id="@+id/resultado_robot"
-            android:layout_marginLeft="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight=".25"/>
+            android:layout_marginLeft="12dp"
+            android:layout_weight=".25"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
     </LinearLayout>
